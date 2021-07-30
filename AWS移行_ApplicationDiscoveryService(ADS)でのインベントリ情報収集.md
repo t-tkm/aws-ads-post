@@ -94,8 +94,7 @@ ADSを使うために、Migration Hubの有効化を行います。
     msiexec.exe /i c:\Users\Administrator\Downloads\AWSDiscoveryAgentInstaller.msi REGION="ap-northeast-1" KEY_ID="<aws key id>" KEY_SECRET="<aws key secret>" /q
     ```
 
-本投稿では、各仮想マシンにエージェントを導入する方法を試しましたが、vCenter上の仮想マシンであれば、「検出コネクター」(仮想アプライアンス-OVA/OVFパッケージ)を使うことで、エージェントレスでの
-情報収集が可能です。
+本投稿では、各仮想マシンにエージェントを導入する方法を試しましたが、vCenter上の仮想マシンであれば、「検出コネクター」(仮想アプライアンス-OVA/OVFパッケージ)を使うことで、エージェントレスでの情報収集が可能です。
 
 暫くすると「Data collection」のAgentsタブに、各エージェントが表示されます。エージェントを選択し「データ収集を開始」ボタンを押します。
 
